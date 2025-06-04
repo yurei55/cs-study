@@ -13,7 +13,7 @@ class Latte {
 
 class Espresso {
     constructor() {
-        this.name - "Espresso";
+        this.name = "Espresso";
     }
 }
 
@@ -42,7 +42,7 @@ const main = () => {
     // 라떼 커피를 주문한다.
     const coffee = CoffeeFactory.createCoffee("LatteFactory");
     // 커피 이름을 부른다.
-    console.log(coffee.name) // latte
+    console.log(coffee.name); // latte
 }
 
 main()
