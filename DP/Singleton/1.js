@@ -34,7 +34,7 @@ class DB {
     if (!DB.instance) {
       DB.instance = createConnection(url);
     }
-    return Db.instance;
+    return DB.instance;
   }
 }
 
